@@ -1,1 +1,1 @@
-## A collection of daily exercises as part of my study at General Assembly.
+# A collection of daily coding exercises as part of Software Engineering course at General Assembly.
