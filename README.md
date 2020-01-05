@@ -1,1 +1,5 @@
-## a collection of daily coding exercises as part of Software Engineering course at General Assembly.
+## a collection of daily coding exercises
+
+---
+
+### part of Software Engineering course at General Assembly.
