@@ -20,11 +20,11 @@ var coinFlip = function () {
 }
 
 var winnerCount = function () {
-    while (heads !==5 && tails !== 5) {
+    while (heads !== 5 && tails !== 5) {
         coinFlip()
     }
     if (heads === 5) {
-    console.log('Winner Heads')
+        console.log('Winner Heads')
     }
     else {
         console.log('Winner Tails')
