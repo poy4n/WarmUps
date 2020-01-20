@@ -4,7 +4,7 @@ loop do
     puts "Say something to Daniel or type Exit..."
     phrase = gets.chomp
     break if phrase == "Exit"
-    if phrase =~ /\?/ #phrase.end_with?("?") >>> can be a word
+    if  phrase.end_with?("?") >>> can be a word
         puts "Sure"
     elsif phrase == ""
         puts "Fine, Be that way!"
