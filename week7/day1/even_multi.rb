@@ -11,7 +11,7 @@ def even_multiples numbers
 
     result = []
     numbers.each do |num|
-        if num.even? and num % 5 == 0
+        if num.even? && num % 5 == 0
             result << num
         end
     end

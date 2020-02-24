@@ -21,7 +21,7 @@ let makeFriendlyDates = function (array) {
 
     for (let i = 0; i < array.length; i++) {
         let date = array[i].split('-')
-        
+        console.log(date)
         if (Number(date[0]) === currentYear) {
             friendlyDates.push(`${months[Number(date[1])]} ${date[2]}`)
         } else {
@@ -31,6 +31,5 @@ let makeFriendlyDates = function (array) {
     return friendlyDates
 }
 
-
 console.log(makeFriendlyDates(["2016-07-01", "2018-07-04"]))
-console.log(makeFriendlyDates(["2020-07-01", "2020-07-04"]))
+// console.log(makeFriendlyDates(["2020-07-01", "2020-07-04"]))

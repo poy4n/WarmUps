@@ -1,0 +1,35 @@
+#accordion {
+	list-style: none;
+	padding: 0 0 0 0;
+	width: 170px;
+}
+
+#accordion div {
+	display: block;
+	background-color: rgb(255, 255, 255);
+	font-weight: bold;
+	margin: 1px;
+	cursor: pointer;
+    list-style: circle;
+    border: 1px solid black;
+}
+
+#accordion ul {
+	list-style: none;
+	padding: 0 0 0 0;
+}
+
+#accordion ul{
+	display: none;
+}
+
+#accordion ul li {
+	font-weight: normal;
+	cursor: auto;
+	background-color: #fff;
+	padding: 0 0 0 7px;
+}
+
+#accordion a {
+	text-decoration: none;
+}

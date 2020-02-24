@@ -9,10 +9,10 @@ var gooseFilter = function(array) {
 
     array.filter(function(animal) {
         if (geese.includes(animal) !== true) {
-            filtered.push(animal)
+            filtered.push(animal);
         }
     })
     return filtered
 }
 
-console.log(gooseFilter(animals))
+console.log(gooseFilter(animals));
