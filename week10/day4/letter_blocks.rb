@@ -24,17 +24,18 @@ def can_make_word(word)
         ['Z','M']
     ]
 
-    blocks.each do |block|
-       
-        if word.include?(block[0])
-            puts block[0]
+    blocks.each_with_index do |block, index|
+        p block
+        p block[index]
+        if word.include?(block[0]) && block[index]
+            # puts block[0]
+            # puts block[1]
+
             puts true
-        elsif word.include?(block[1])
-            puts block[1]
-            puts true
-        else
-            puts false
-        end
+        # elsif 
+        #     puts block[1]
+        #     puts true
+        end 
         
     end
 end
